@@ -1,5 +1,5 @@
-export default function BlogPost() {
+export default function BlogPost({ params: { slug } }) {
   return (
-    <h1>Test</h1>
+    <h1>{slug}</h1>
   )
 }
